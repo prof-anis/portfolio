@@ -1,6 +1,14 @@
 <?php
 
+//mysql://b44dc0cf0d084e:9b554a56@us-cdbr-iron-east-01.cleardb.net/heroku_46faa0fb5095442?reconnect=true
 use Illuminate\Support\Str;
+
+
+$host = "us-cdbr-iron-east-01.cleardb.net";
+$password="9b554a56";
+$username="b44dc0cf0d084e";
+$name="heroku_46faa0fb5095442";
+
 
 return [
 
@@ -46,11 +54,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => $host,
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => $name,
+            'username' => $username,
+            'password' => $password,
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
