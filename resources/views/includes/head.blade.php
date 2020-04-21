@@ -35,30 +35,30 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet">
 
     <!--Font Awesome css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/font-awesome.min.css')}}">
 
     <!--Bootstrap css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/bootstrap.min.css')}}">
 
     <!--Animate css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/animate.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/animate.css')}}">
 
     <!--Animated headline css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/jquery.animatedheadline.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/jquery.animatedheadline.css')}}">
     
 	<!--Owl carousel css-->
-	<link rel="stylesheet" href="{{ asset('portfolio/css/owl.carousel.css')}}">
-	<link rel="stylesheet" href="{{ asset('portfolio/css/owl.theme.default.css')}}">
+	<link rel="stylesheet" href="{{ asset('/portfolio/css/owl.carousel.css')}}">
+	<link rel="stylesheet" href="{{ asset('/portfolio/css/owl.theme.default.css')}}">
     
 	<!--Magnific popup css-->
-	<link rel="stylesheet" href="{{ asset('portfolio/css/magnific-popup.css')}}">
+	<link rel="stylesheet" href="{{ asset('/portfolio/css/magnific-popup.css')}}">
     
 	<!--Normalizer css-->
-	<link rel="stylesheet" href="{{ asset('portfolio/css/normalize.css')}}">
+	<link rel="stylesheet" href="{{ asset('/portfolio/css/normalize.css')}}">
 
     <!--Theme css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/style.css')}}">
 
     <!--Responsive css-->
-    <link rel="stylesheet" href="{{ asset('portfolio/css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ asset('/portfolio/css/responsive.css')}}">
 </head>

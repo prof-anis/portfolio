@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', "PortfolioController@index");
 Route::post('/contact','PortfolioController@contact')->name("contact");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
